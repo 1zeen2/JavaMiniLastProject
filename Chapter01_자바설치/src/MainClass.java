@@ -103,6 +103,6 @@ public class MainClass {
 		System.out.println(Integer.toBinaryString(65));		//문자 'A'를 숫자로 표현한 65를 2진수로 표현
 		System.out.println((int) '홍');						//문자 '홍'을 숫자로 표현
 		System.out.println(Integer.toBinaryString(54861));	//문자 '홍'을 숫자로 표현한 54861을 2진수로 표현
-	}
 
+    }
 }
