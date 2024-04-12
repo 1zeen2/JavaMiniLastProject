@@ -80,7 +80,7 @@
  *		--------------------------------------------
  *		long	=>	8byte	=>	64bit	
  */
-public class 변수_25페이지 {
+public class 변수_1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -90,9 +90,79 @@ public class 변수_25페이지 {
 			System.out.println(b1);
 		b1 = 100;
 			System.out.println(b1);
-*/		
+		
 			long a = 21000000000L;	//	21억 4천을 넘어가면 롱타입이라는 것을 알 수 있는 접미사를 붙여야 한다.ㅋㅋ
 			System.out.println(a);
-	}
+*/
+		int kor	=90;				//	4byte 메모리 공간을 만들어서 => kor 이름으로 90을 저장한다.
+		int eng	=80;
+		int math=70;
+		//		----	초기 값
+		//초기 값을 부여하는 방법
+		/*
+		 *	1. 명시적	초기화
+		 *		int a = 100;
+		 *	2. 난수 발생	=>	임의로 숫자를 추출	=>	게임
+		 *	3. 사용자로부터 값을 받아서 초기화 할 때
+		 *	초기값 없이 사용하면 오류가 발생한다.
+		 */
+		int total = 0;
+			System.out.println(total);
+			System.out.println(kor+eng+math);
+		/*
+		 * 변수
+		 * ---
+		 * 	1. 지역 변수	:	반드시 초기화를 해서 사용해야 한다.
+		 * 	-------------------------------------------
+		 * 		초기화
+		 * 			1) 선언과 동시에 초기 값을 부여하는 방법.
+		 * 				int a = 10;
+		 * 			2) 선언을 먼저 한 후 값을 대입하는 방법.
+		 * 				int a;
+		 * 				a = 10;
+		 *			3) 여러 개를 동시에 선언.
+		 *				int a = 10;
+		 *				int b = 10;
+		 *				int c = 10;
+		 *			-------------------
+		 *				int a , b , c;
+		 *				---- 리터럴이 동일한 경우
+		 *				a=b=c=10;
+		 *			-------------------
+		 *				int a = 10 , b = 10 , c = 10;
+		 * 	2. 멤버 변수
+		 * 	3. 공유 변수
+		 * 	4. 참조 변수 
+		 * 
+		 * 논리형		=>	boolean	=>	저장하는 값	=>	true	/	false
+		 * 1byte	=>	true = 1 , false = 0
+		 * => 사용하는 위치는 조건을 사용할 때
+		 * => 형식)
+		 * 	boolean bCheck = false;
+		 * 	
+		 */
+			boolean bCheck = false;
+				System.out.println(bCheck);
+		/*
+		 *	문자형
+		 *	=>	char	:	멀티 바이트	=>	2byte	=>	UniCode
+		 *		----
+		 *		l C언어	=>	싱글 바이트	=>	1byte	=>	ASC
+		 *		=>	각 문자 마다 번호를 부여	(ASCII Code)
+		 *		=>	0 ~ 65535
+		 *		=>	0 ~ 255
+		 *		=>	A	=>	65
+		 *		=>	a	=>	97
+		 *		=>	'0'	=>	48
+		 *		=>	표현 방식	=>	문자 1개	=>	''
+		 */
+			char hakjum	='B';
+				System.out.println(hakjum);
+			char fname	='홍';
+				System.out.println(fname);
+			char num	='0';
+				System.out.println(num);
+				System.out.println((int) num);
+	}		
 
 }
