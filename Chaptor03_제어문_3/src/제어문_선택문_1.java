@@ -86,7 +86,6 @@ import java.util.Scanner;
 public class 제어문_선택문_1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner scan = new Scanner(System.in);
 		System.out.println("첫 번째 정수 입력 : ");
 		int num1 = scan.nextInt();
@@ -125,7 +124,7 @@ public class 제어문_선택문_1 {
 			System.out.println("잘못된 연산입니다.");
 			//	마지막에는 break를 사용할 수도, 하지 않을 수도 있다.
 			// *** case에 등록된 값이 중복되면 오류.
-			// *** case에 들어가는 데이터형은 통일되어야 한다.ㅌ
+			// *** case에 들어가는 데이터형은 통일되어야 한다.
 		}
 	}
 
