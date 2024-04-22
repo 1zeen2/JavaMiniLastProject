@@ -26,6 +26,7 @@ public class 자바제어문_반복문_문제01 {
 			} else {
 				System.out.println("10의 자리와 1의 자리가 같지 않습니다.");
 			}
+			
 		} else {
 			System.out.println("10 ~ 99 사이의 정수만 입력을 해주세요.");
 		}

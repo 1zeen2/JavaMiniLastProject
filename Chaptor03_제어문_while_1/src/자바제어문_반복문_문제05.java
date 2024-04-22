@@ -9,8 +9,11 @@ public class 자바제어문_반복문_문제05 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		// 7의 배수의 합과 개수를 담을 변수 2개 선언.
 		int sum = 0, cnt = 0;
 		
+		// 100부터 999 사이의 값중 7의 배수인 수가 나오면 그 개수와 값을 변수에 담고 i의 값을 1씩 올린다.
 		for(int i = 100; i <= 999; i++) {
 			if(i %7 == 0) {
 				

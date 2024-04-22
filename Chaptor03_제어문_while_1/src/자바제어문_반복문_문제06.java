@@ -9,9 +9,11 @@ public class 자바제어문_반복문_문제06 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		
+		// 4의 배수가 아닌 수의 개수와 합을 담을 변수 2개를 선언.
 		int cnt = 0, sum = 0;
 		
+		// 100 ~ 999 사이의 값이 4의 배수가 아니면 sum에 그 값을 담고 cnt에 1개수를 담은 후 i의 값을 1씩 올린다.
 		for (int i = 100; i <= 999; i++ ) {
 			if (!(i % 4 == 0)) {
 				

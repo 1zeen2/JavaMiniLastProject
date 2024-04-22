@@ -31,10 +31,14 @@ public class 자바제어문_반복문_문제02 {
 		} 
 		
 		switch (num) {
-		case 9: case 10: case 11:
+		case 9:	
+		case 10: 	
+		case 11:
 			System.out.println("가을 입니다.");	
 			break;
-		case 12: case 1: case 2:
+		case 12:
+		case 1: 
+		case 2:
 			System.out.println("겨울 입니다.");
 		} 
 	}
