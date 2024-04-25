@@ -26,3 +26,4 @@ public class 배열문제_2 {
 	}
 
 }
+ 
