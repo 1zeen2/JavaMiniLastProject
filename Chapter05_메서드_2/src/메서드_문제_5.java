@@ -9,12 +9,12 @@ public class 메서드_문제_5 {
 		for (int i = 0; i < str.length(); i++) {
 			char c = str.charAt(i);
 			if (c >= 'A' && c <= 'Z') {
-				res + c;
+//				res + c;
 				
 			} else if (c >= 'a' && c <= 'z') {	
 				res += (char)(c-32);
 			} else {
-				res + c;
+//				res + c;
 			}
 		}
 		//return str.toUpperCase();

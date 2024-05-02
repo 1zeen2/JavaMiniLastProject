@@ -13,7 +13,7 @@ public class 메서드_문제_7 {
 
 	public static void main(String[] args) {			// gpt 나머지 작성도와줘
 		
-		munje_7(str);
+//		munje_7(str);
 
 	}
 
