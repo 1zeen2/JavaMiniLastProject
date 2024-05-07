@@ -36,9 +36,9 @@ class student { // ==> student 클래스는 데이터로 변경되었다. 형 �
 	String school_name;
 }
 class student1 {
-//	String par = new student(); {
-//		static = on
-//	}
+	student par = new student(); {
+		
+	}
 }
 
 // => 저장
