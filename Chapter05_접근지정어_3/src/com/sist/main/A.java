@@ -16,8 +16,7 @@ public class A {
 
 		A a = new A();	//	충전
 		
-		
-		
+
 
 		
 		a = null;		//	방전 => 객체가 null 이면 사용할 수 없다.
