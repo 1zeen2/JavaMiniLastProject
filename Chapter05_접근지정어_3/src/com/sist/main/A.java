@@ -15,15 +15,10 @@ public class A {
 		// TODO Auto-generated method stub
 
 		A a = new A();	//	충전
-		
-
-
-		
 		a = null;		//	방전 => 객체가 null 이면 사용할 수 없다.
 		System.gc();
-		
-		
-		    
+  
 	}
 
 }
+// why cant upload to master TT
