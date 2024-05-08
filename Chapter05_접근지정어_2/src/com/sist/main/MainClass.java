@@ -19,5 +19,5 @@ public class MainClass {
       movie.setRank(1);
       System.out.println("순위 : " + movie.getRank());
    }
-   
+        
 }
