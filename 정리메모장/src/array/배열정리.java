@@ -37,7 +37,7 @@ package array;
  * 
  * 		배열도 객체이기 때문에 Heap 에 데이터를 저장한다.
  *   
- *   
+ *     
  */
 public class 배열정리 {
 
