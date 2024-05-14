@@ -35,7 +35,7 @@ class Menu {
 }
 
 // 메인 클래스입니다.
-public class MainClass {
+public class RandomMenu {
     public static void main(String[] args) {
         // Menu 객체를 생성합니다.
         Menu menu = new Menu();
