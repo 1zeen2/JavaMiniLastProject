@@ -15,6 +15,7 @@ package com.sist.main;
 import java.util.Random;
 
 class Menu {
+	
     // 메뉴 리스트를 문자열 배열로 선언 및 초기화합니다.
     private String[] menuList = {
         "왕돈까스", "닭갈비 덮밥", "짜장 덮밥", "서교 알밥", "규동", 
@@ -23,8 +24,8 @@ class Menu {
         "치킨 마요", "육회 비빔밥", "육개장", "돈밥"
     };
 
-    // 무작위 메뉴를 선택하여 출력하는 메서드를 정의합니다.
-    public void randomMenu() {
+	// 무작위 메뉴를 선택하여 출력하는 메서드를 정의합니다.
+    public void random() {
         // Random 객체를 생성합니다.
         Random random = new Random();
         // 0부터 메뉴 리스트의 길이까지의 난수를 생성하여 무작위 인덱스를 선택합니다.
@@ -40,6 +41,6 @@ public class RandomMenu {
         // Menu 객체를 생성합니다.
         Menu menu = new Menu();
         // 무작위 메뉴를 출력하는 메서드를 호출합니다.
-        menu.randomMenu();
+        menu.random();
     }
 }
