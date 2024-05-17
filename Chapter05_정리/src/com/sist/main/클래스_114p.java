@@ -99,16 +99,6 @@ package com.sist.main;
  *							==>	b			=========> static은 static 메서드, static 변수만 호출이 가능하다.
  *						}
  *					}
- *				
- * 					
- *
- *
- *
- *
- *
- *
- *
- *		
  */
 class Student {
 	private String name;
