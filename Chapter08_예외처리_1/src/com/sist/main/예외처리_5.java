@@ -66,7 +66,7 @@ public class 예외처리_5 {
 /*		try {
 			for (int i = 1; i <= 10; i++) {
 				int n = (int)(Math.random() * 3);
-				System.out.println(i / n);
+				System.out.println(i / n); 
 			}
 		} catch (Exception e) {
 			System.out.println("오류 발생 : " + e.getMessage());
