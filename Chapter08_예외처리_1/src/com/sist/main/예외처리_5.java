@@ -3,10 +3,10 @@ package com.sist.main;
 import java.util.Random;
 
 /*
- * catch 1개로 여러 개를 처리할 경우 : Exception (모든 예외 처리 가능을 가지고 있다.
- * 실행 시 예외는 RuntimeException 
+ * catch 1개로 여러 개를 처리할 경우 : Exception (모든 예외 처리 가능을 가지고 있다.)
+ * 실행 시 예외는 RuntimeException
  * 
- * 	CheckedException : 컴파일 시에 예외 처리가 있는 지 확인, => 반드시 예외 처리를 해서 사용
+ * 	CheckedException : 컴파일 시에 예외 처리가 있는 지 확인 => 반드시 예외 처리를 해서 사용
  * 	---------------- 파일 입출력, 오라클 연동, 크롤링, 네트워크, 웹
  * 
  *	UnCheckedException : 실행 시에 예외 처리를 하기 때문에 => 생략이 가능하다
@@ -43,7 +43,7 @@ import java.util.Random;
  *							   ---------------------
  *		예외 처리의 종류 (모든 프로그램 언어에서 존재, 자바스크립트, 오라클)
  *		= try ~ catch => 가장 많이 사용되는 예외 처리
- *		= throws => 라이브러리에 주로 사용된다
+ *		= throws => 라이브러리에 주로 사용된다 
  *
  *		try ~ catch 의 형식
  *		try {

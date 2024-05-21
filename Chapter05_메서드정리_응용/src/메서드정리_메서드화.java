@@ -108,7 +108,7 @@ public class 메서드정리_메서드화 {
 			}
 		}
 		
-	}
+	} 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
         process(); // 완성된 메소드만 호출 
