@@ -13,7 +13,7 @@ package com.sist.main;
  * 		-------------------
  * 		1.	사용자의 입력 부주의 : 잘못된 입력이 있는 경우
  * 		   	------------------ if 조건문 처리 ==> 유효성 검사
- * 		2.	프로그래머의 실수 : 배열의 범위를 초과하거나, 반복 수행, 클레스 메모리가 할당되지 않은 경우, 변수 초기화가 되지 않은 경우, 등..
+ * 		2.	프로그래머의 실수 : 배열의 범위를 초과하거나, 반복 수행, 클래스 메모리가 할당되지 않은 경우, 변수 초기화가 되지 않은 경우, 등..
  * 
  * 	=> 예외 처리
  * 		=> 사전에 에러 방지
@@ -71,7 +71,7 @@ package com.sist.main;
  * 											---- 3버전 => 4, 5 버전 출시
  * 
  * 		=> Front : 자바 스크립트 중심 (JavaScript => Jquery, Ajax, NodeJS, VueJs, ReactJS)
- *      	                          -----------                          ---------------\
+ *      	                          -----------                         ---------------
  *          	                      |TypeScript                          | NextJS
  *		=> Back : 프로그램 언어 (자바) => JSP, MVC, Spring, Spring-Boot
  *     		                             데이터베이스 (오라클, MySpl, Mariadb)
@@ -99,7 +99,6 @@ package com.sist.main;
  * 		
  * 		UncheckException : 필요 시에만 예외 처리를 한다 => 예외 처리를 생략할 수 있다
  * 				|			=> 지금까지 사용한 클래스
- * 				|
  * 		ArrayIndexOutBoundsException => 배열 범위 초기화
  * 		ClassCastExceotion	=> 클래스 형 변환
  * 		ArithmeticExceptopn	=> 산술 오류 => 0으로 나누는 경우
