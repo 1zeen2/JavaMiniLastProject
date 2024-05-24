@@ -108,8 +108,7 @@ public class 예외처리_응용 extends JFrame implements ActionListener {
 				// 다시 처음부터 동작을 하게 만든다
 				return;	// 메서드에서 리턴을 사용하게 되면 메서드가 종료된다.
 						// 프로그래머가 return 을 만들어 메서드를 강제로 종료시킬 수 있다.
-			}
-			// 메서드는 return 이 있을 때 종료. ==> 항상 마지막에 있는 것은 아니다.
+			} 
 			// 비교
 			compare();
 			// return ==> 생략 된 리턴. (자동으로 추가 되는 return)
