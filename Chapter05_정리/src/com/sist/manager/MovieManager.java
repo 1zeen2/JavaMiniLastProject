@@ -19,7 +19,8 @@ import java.util.*;
 import com.sist.vo.*; // Movie 클래스를 가져올 수 있게 함
 public class MovieManager {
 	// Movie에 있는 모든 데이터를 읽어서 저장 => 변수 => 모든 User 가 공통된 데이터를 사용한다.
-	private static Movie[] movies = new Movie[1938];	// private 접근 제한자를 가진 static 변수인 movies 를 Movie 클래스의 데이터로 이루어진 1938 크기의 배열로 초기화
+	private static Movie[] movies = new Movie[1938];	// Movie 클래스의 객체를 담을 배열을 생성합니다. 
+														// 배열의 크기는 1938로 정의되었으며, private로 선언된 정적 클래스형 배열입니다.
 	/*
 	 * 	변수 => 기본형 / 배열 / 클래스
 	 * 	Movie : 사용자 정의 데이터 형 클래스 => 배열, 형 변환도 가능하다.
@@ -38,7 +39,7 @@ public class MovieManager {
 			 *	=> 파일 입출력 / 네트워크 / 데이터 베이스 ==> 이 3가지는 꼭 예외 처리를 해주어야 한다.
 			 */
 			FileReader fr = new FileReader("C:\\javaDev\\movie.txt");
-			int i = 0; // fe.read() => 리턴 형이 정수형이다. (문자의 번호를 읽어온다) 읽어올 때는 int,저장할 때는 char로 저장해야 함.
+			int i = 0; // fr.read() => 리턴 형이 정수형이다. (문자의 번호를 읽어온다) 읽어올 때는 int,저장할 때는 char로 저장해야 함.
 			StringBuffer sb = new StringBuffer(); // 읽어서 데이터를 누적해 실행 속도를 향상시킨다.
 			
 			while ((i = fr.read()) != -1) {	// EOF
@@ -51,8 +52,9 @@ public class MovieManager {
 			String[] temp = data.split("\n");
 			i = 0;
 			for (String s : temp) {
-				String[] movie = s.split("\\|");												//			  |=> 자바에서는 \\ << 2개를 \ 1개로 인식하기 때문에 2개씩 사용해준다.
+				String[] movie = s.split("\\|");						
 				// split, replaceAll => ?, ., +, *, | => 기호 자체를 이용할 때는 => \\. << 을 이용해야 한다. => \\를 사용하지 않으면 연산자로 인식(처리)가 된다.
+				//						------------- 	  (등의 정규식 기호)
 				movies[i] = new Movie();
 				movies[i].setRank(movie[0]);
 				// 변수에 값을 세팅 ==> setter
@@ -178,5 +180,6 @@ public class MovieManager {
 			System.out.println("감독 : " + mmm.getDirector());
 			
 		}
+
 	
 }
