@@ -25,7 +25,7 @@ public class BoardUpdate extends JPanel{
     	nameLa=new JLabel("이름",JLabel.CENTER);
     	nameTf=new JTextField();
     	nameLa.setBounds(10, 70, 80, 30);
-    	nameTf.setBounds(95, 70, 150, 30);
+    	nameTf.setBounds(95, 70, 150, 30);	
     	add(nameLa);add(nameTf);
     	
     	subLa=new JLabel("제목",JLabel.CENTER);
