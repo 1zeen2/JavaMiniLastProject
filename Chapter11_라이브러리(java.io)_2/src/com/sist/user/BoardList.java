@@ -79,4 +79,5 @@ public class BoardList extends JPanel{
     	p.setBounds(10, 450, 600, 35);
     	add(p);
     }
+    
 }
